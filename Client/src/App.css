@@ -1,0 +1,344 @@
+html{
+    background-color: rgb(95, 94, 94);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* ***********************LOGIN************************* */
+.Logincontaner{
+    height:710px;
+}
+.inside_container{
+    border: solid;
+    border-color: aqua;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    height:50%;
+    position: absolute;
+    top: 26%;
+    left: 35%;
+}
+.input_conatiner{
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    width:80%;
+    background-color: black;
+    text-align: center;
+}
+.username_login,.password_login{
+    /* display:inline-block; */
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    height: 30px;
+}
+.login_btn{
+    background-color: antiquewhite;
+    height: 30px;
+    width: 30%;
+    margin: auto;
+}
+.btn{
+    display:flex;
+    background-color: black;
+    flex-direction:column;
+    margin:5px auto ;
+    width:80%;
+    text-align: center;
+}
+.register_login,.login_text{
+    display: inline;
+    color: rgb(197, 205, 202);
+    text-decoration: none;
+    margin:10px auto;
+    background-color: black;
+}
+.img_login{
+    height: 90px;
+    margin: 0px;
+    background-color: black;
+    text-align: left;
+    align-items: end;
+}
+.name_login{
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+}
+.top_login{
+    /* display: flex; */
+    border-radius: 8px;
+    background-color: black;text-align: left;
+    /* text-align: center; */
+}
+
+
+/* **************Register********** */
+
+.Registercontaner{
+    height:710px;
+}
+.inside_container_Register{
+    border: solid;
+    border-color: aqua;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    height:60%;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+.input_conatiner_Register{
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    width:80%;
+    background-color: black;
+    text-align: center;
+}
+.username_Register,.password_Register,.confirm-password_Register,.email_Register{
+    /* display:inline-block; */
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    height: 30px;
+}
+.Register_btn{
+    background-color: antiquewhite;
+    height: 30px;
+    width: 30%;
+    margin: auto;
+}
+.btn{
+    display:flex;
+    background-color: black;
+    flex-direction:column;
+    margin:5px auto ;
+    width:80%;
+    text-align: center;
+}
+.login_Register,.Register_text{
+    display: inline;
+    color: rgb(197, 205, 202);
+    text-decoration: none;
+    margin:10px auto;
+    background-color: black;
+}
+.img_Register{
+    height: 90px;
+    margin: 0px;
+    background-color: black;
+    text-align: left;
+    align-items: end;
+}
+.name_Register{
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+}
+.top_Register{
+    /* display: flex; */
+    border-radius: 8px;
+    background-color: black;text-align: left;
+    /* text-align: center; */
+}
+
+
+/* **************Navbar********** */
+.Navbar_container{
+    text-align: center;
+}
+.Navbar_inside{
+    /* padding: 3px; */
+    border:solid;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    width: 65%;
+}
+.icon-navbar{
+    /* white-space: 20px; */
+    margin: 10px 60px;
+    
+    /* text-decoration: underline; */
+    padding: 3px;
+    border-radius: 10px;
+    /* position: relative; */
+    color: aliceblue;
+}
+.icon-navbar:hover{
+    border-bottom:solid;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+.inside_homeconatiner{
+    border:solid;
+    border-color: rgb(0, 0, 0);
+}
+/* **************leftside********8********** */
+.Left_conatiner{
+    /* border:solid; */
+    /* border-radius: 2px; */
+    /* border-width: 2px; */
+    /* height: 70vh; */
+    /* margin:2px auto ; */
+    width:23%;
+    height: 89vh;
+}
+.inside_homeconatiner{
+    width: 98vw;
+    margin:3px auto;
+    display: flex;
+    /* margin: auto; */
+    /* flex-direction: column; */
+}
+.right_conatiner{
+    width: 77%;
+    border-left:solid;
+    height:89vh;
+}
+.joinedgroup_container{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border:solid;
+    width: 80%;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    margin: 5px auto;
+    padding: 3px;
+    box-shadow: rgba(150, 128, 128, 0.35) 0px 5px 15px;
+} 
+.avtar_name{
+    font-size: 20px;
+    color: aliceblue;
+    margin: auto 2px;
+}
+
+.serch_btn{
+    border:solid;
+    color:white;
+    border-color: black;
+}
+.serchbar_inside{
+    display:flex;
+    margin:auto ;
+    /* border:solid;  */
+    top: 20px;
+    width: 89%;
+    text-align: center;
+    /* padding-top: 20px; */
+    background-color: rgb(61 57 57);
+}
+.text_serbar{
+    width: 85%;
+    /* border: none; */
+    border-radius: 5px;
+    /* background-color: transparent; */
+}
+.text_serbar:focus{
+    outline: none;
+}
+.Serchbar_container{
+    /* border-top: solid; */
+    border-bottom: solid;
+    background-color:#b4b4b4;
+    /* padding: 25px auto; */
+    /* height: 16%; */
+    padding-top:30px ;
+    padding-bottom:30px ;
+}
+
+/* ***********rigth side***************** */
+.inside_rightcontainer{
+    border: solid;
+    margin: auto;
+    height:100%;
+    width:95%;
+}
+.Rigthhead_conatiner{
+    width: 100%;
+    height: 14%;
+    border:solid ,sienna;
+}
+.inside_Rigthheadcontainer{
+    border: solid,green;
+    border-radius: 12px;
+    margin:6px auto;
+    width: 88%;
+    /* top: 40px; */
+    display: flex;
+    height:80%;
+}
+.icon-righthead{
+    margin: 18px 30px 0px 30px;
+    /* top: 10px; */
+    /* padding: 3px; */
+    /* border-radius: 10px; */
+    color: aliceblue;
+}
+.icon-righthead_left{
+    margin: 18px 10px 0px 10px;
+    /* top: 10px; */
+    /* padding: 3px; */
+    /* border-radius: 10px; */
+    color: aliceblue;
+}
+.name_rigthhead{
+    /* display: inline-block; */
+    font-size: 20px;
+    color: aliceblue;
+}
+.left_righthead{
+    /* border:solid; */
+    /* margin: auto; */
+    width: 30%;
+    text-align: center;
+    display: flex;
+}
+.right_righthead{
+    /* border:solid; */
+    width:70%;
+    text-align: end;
+    /* text-align: center;*/
+    /* display: flex;
+    flex-direction:row; */
+}
+/* *****************RIGHT SIDE*******************/
+.Rightbottom_conatiner{
+    border: solid,red;
+    height: 85%;
+    margin-top: 20px;
+    /* width: 0%; */
+    margin: auto;
+}
+.inside_Rightbottomcontainer{
+    border: solid,rgb(171, 171, 171);
+    height: 89%;
+    top:30px;
+    position:relative;
+    /* margin-top: 20px; */
+    width:91%;
+    margin: auto;
+}
+
+.inside_Rightbottomsendbtncontainer{
+    border: solid,green;
+    border-radius: 12px;
+    margin:6px auto;
+    width: 88%;
+    display: flex;
+    height:80%;
+}
